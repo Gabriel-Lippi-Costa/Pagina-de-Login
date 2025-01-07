@@ -74,6 +74,7 @@ h3{
 
 form > input[type=submit] {
     background-color: darkgray;
+    color: black;
     display: block;
     font-size: 1.1em;
     margin: auto;
@@ -82,6 +83,7 @@ form > input[type=submit] {
     border-radius: 15px;
     border-width: 2px;
     border-style: solid;
+    border-color: black;
     width: 150px;
     cursor: pointer;
 }
