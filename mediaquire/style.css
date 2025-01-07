@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    html, body{
+        overflow-y: hidden;
+    }
+    
+    .login{
+        width: 250px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .login{
+        width: 500px;
+        height: 400px;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 1.5em;
+    }
+
+    .material-symbols-outlined{
+        font-size: 3em;
+    }
+
+    form > input[type=submit] {
+        width: 250px;
+    }
+
+    .esqueci{
+        width: 242px;
+        height: 23px;
+    }
+}
